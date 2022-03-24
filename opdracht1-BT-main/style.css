@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(212, 213, 210);
+    padding: 1em;
+    font-family: avenir;
+}
+
+main{
+    padding: 2em;
+    background-color: white;
+    border-radius: 2em;
+    height: 80vh;
+}
+
+main > div{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5em;
+}
+
+img{
+    max-height: 500px;
+}
