@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(212, 213, 210);
+    padding: 1em;
+    font-family: avenir;
+}
+
+main{
+    padding: 2em;
+    background-color: white;
+    border-radius: 2em;
+}
+
+section {
+    padding: 2em;
+    background-color: rgb(212, 213, 210);
+    border-radius: 2em;
+    margin-top: 2%;
+}
+
+img {
+    max-width: 100%;
+}
+
+h3 {
+    margin-top: 3%;
+}
