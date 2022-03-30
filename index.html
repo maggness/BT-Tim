@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>swag</title>
+</head>
+<body>
+  <header>
+
+  </header>
+  <main>
+    <h1>CMD Vragen</h1>
+    <form>
+      <fieldset>
+        <legend>Invullen Vak 1</legend>
+        <ul>
+          <li>
+            <label for="name">
+              je naam: <input type="text" id="name" name="user_name" placeholder="Je naam" required>
+            </label>
+          </li>
+          <li>
+            <label for="docent">Van wie heb je les gehad?:</label>
+            <select id="docent" name="docent" required>
+              <option value="1">Naam & Naam</option>
+              <option value="2">Naam & Naam</option>
+              <option value="3">Naam & Naam</option>
+              <option value="4">Naam & Naam</option>
+            </select>
+          </li>
+          <li>
+            <label for="week">In welke week heb je dit vak gehad?</label>
+            <select id="week" name="week" required>
+              <option value="1">Week 1-4</option>
+              <option value="2">Week 5-8</option>
+              <option value="3">Week 9-12</option>
+              <option value="4">Week 13-16</option>
+            </select>
+          </li>
+          <li>
+            <label for="leerstof">Hoe vond je de leerstof? (0-10)</label>
+            <input type="number" id="leerstof" name="leerstof" min="0" max="10" placeholder="0-10" required>
+          </li>
+          <li>
+            <label for="uitleg">Hoe vond je de uitleg? (0-10)</label>
+            <input type="number" id="uitleg" name="uitleg" min="0" max="10" placeholder="0-10" required>
+          </li>
+          <li>
+            <label for="inzicht">Hoe vond je de inzicht? (0-10)</label>
+            <input type="number" id="inzicht" name="inzicht" min="0" max="10" placeholder="0-10" required>
+          </li>
+        </ul>
+      </fieldset>
+      <input type="submit">
+    </form>
+  </main>
+  <footer>
+
+  </footer>
+</body>
+</html>
