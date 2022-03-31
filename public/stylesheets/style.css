@@ -160,7 +160,7 @@ footer div button {
 }
   
   ::-webkit-scrollbar-track {
-    background-image: url("../public/images/scrollbar-background.svg");
+    background-image: url("../images/scrollbar-background.svg");
   }
   
   ::-webkit-scrollbar-thumb {
@@ -177,17 +177,17 @@ footer div button {
   
   ::-webkit-scrollbar-button:vertical:start {
     height: 17px;
-    background-image: url("../public/images/button-up.svg");
+    background-image: url("../images/button-up.svg");
   }
   ::-webkit-scrollbar-button:vertical:end {
     height: 17px;
-    background-image: url("../public/images/button-down.svg");
+    background-image: url("../images/button-down.svg");
   }
   ::-webkit-scrollbar-button:horizontal:start {
     width: 16px;
-    background-image: url("../public/images/button-left.svg");
+    background-image: url("../images/button-left.svg");
   }
   ::-webkit-scrollbar-button:horizontal:end {
     width: 16px;
-    background-image: url("../public/images/button-right.svg");
+    background-image: url("../images/button-right.svg");
   }
