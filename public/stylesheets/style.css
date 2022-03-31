@@ -57,6 +57,10 @@ form {
   height: 84.6vh;
 }
 
+#vaknaam {
+  display: none;
+}
+
 fieldset {
   margin: 1em 0;
   padding: 0;
@@ -147,6 +151,7 @@ footer div button {
   width: 50%;
   height: 85%;
   margin: 0.2em 0 0 0.2em;
+  color: black;
 }
 
 @supports (position: fixed) {

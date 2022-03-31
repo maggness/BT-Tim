@@ -1,0 +1,44 @@
+{
+    "vaknaam": [
+        "Invullen Vak 1",
+        "Invullen Vak 2",
+        "Invullen Vak 3",
+        "Invullen Vak 4"
+    ],
+    "naamStudent": [
+        "Tim de Roller",
+        "Tim de Roller",
+        "Tim de Roller",
+        "Tim de Roller"
+    ],
+    "docent": [
+        "Koop & Joost",
+        "Sanne & Vasilis",
+        "Robert & Peter",
+        "Declan & Justus"
+    ],
+    "week": [
+        "Week 1-4",
+        "Week 5-8",
+        "Week 9-12",
+        "Week 13-16"
+    ],
+    "leerstof": [
+        "8",
+        "6",
+        "7",
+        "7"
+    ],
+    "uitleg": [
+        "7",
+        "8",
+        "8",
+        "7"
+    ],
+    "inzicht": [
+        "9",
+        "8",
+        "7",
+        "7"
+    ]
+}
