@@ -1,193 +1,208 @@
 /* Hulpje: https://jdan.github.io/98.css/ */
 
 body {
-    background-image: url(../images/background98.png);
-    background-color: #008081;
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: monospace, sans-serif;
-    margin: 0;
+  background-image: url(../images/background98.png);
+  background-color: #008081;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: monospace, sans-serif;
+  margin: 0;
 }
 
 h1 {
-    margin: 0;
-    background: linear-gradient(90deg,navy,#1084d0), blue;
-    padding: 0 0.3em;
-    border: 2px solid #f9f9f9;
-    color: #fff;
-    font-weight: 100;
+  margin: 0;
+  background: linear-gradient(90deg, navy, #1084d0), blue;
+  padding: 0 0.3em;
+  border: 2px solid #f9f9f9;
+  color: #fff;
+  font-weight: 100;
 }
 
 section {
-    background: #c0c0c0;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-    border: none;
-    max-width: 40em;
-    margin: auto;
-    margin-top: 1em;
-    height: 90vh;
+  background: #c0c0c0;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
+    inset 2px 2px #dfdfdf;
+  border: none;
+  max-width: 40em;
+  margin: auto;
+  margin-top: 1em;
+  height: 90vh;
 }
 
-input:active, select:active, footer div button:active, input[type=submit]:active {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    box-shadow: inset -1px -1px #ffffff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px #808080;
+input:active,
+select:active,
+footer div button:active,
+input[type="submit"]:active {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: inset -1px -1px #ffffff, inset 1px 1px #0a0a0a,
+    inset -2px -2px #dfdfdf, inset 2px 2px #808080;
 }
 
-input:focus, select:focus, footer div button:focus, input[type=submit]:focus {
-    outline: 1px dotted #000000;
-    outline-offset: -4px;
+input:focus,
+select:focus,
+footer div button:focus,
+input[type="submit"]:focus {
+  outline: 1px dotted #000000;
+  outline-offset: -4px;
 }
 
 form {
-    padding: 0 1em;
-    margin-bottom: 0.5em;
-    text-align: center;
-    overflow-y: scroll;
-    overflow-x: hidden;
-    height: 84.6vh;
+  padding: 0 1em;
+  margin-bottom: 0.5em;
+  text-align: center;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 84.6vh;
 }
 
 fieldset {
-    margin: 1em 0;
-    padding: 0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
-    background: white;
-    border: none;
-} 
+  margin: 1em 0;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf,
+    inset 2px 2px #0a0a0a;
+  background: white;
+  border: none;
+}
 
 ul {
-    list-style: none;
-    text-align: left;
-    padding: 0 1em;
+  list-style: none;
+  text-align: left;
+  padding: 0 1em;
 }
 
 li {
-    margin: 0.4em 0;
+  margin: 0.4em 0;
 }
 
 legend {
-    background: #c0c0c0;
-    padding: 0.2em;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-    border: none;
-    text-align: left;
+  background: #c0c0c0;
+  padding: 0.2em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
+    inset 2px 2px #dfdfdf;
+  border: none;
+  text-align: left;
 }
 
 input {
-    background: #fff;
-    padding: .3em;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
-    font-family: monospace, sans-serif;
-    border: none;
+  background: #fff;
+  padding: 0.3em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf,
+    inset 2px 2px #0a0a0a;
+  font-family: monospace, sans-serif;
+  border: none;
 }
 
-input[type=submit] {
-    background: #c0c0c0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-    border: none;
-    margin-bottom: .6em;
-    padding: 0.5em 1.2em;
+input[type="submit"] {
+  background: #c0c0c0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
+    inset 2px 2px #dfdfdf;
+  border: none;
+  margin-bottom: 0.6em;
+  padding: 0.5em 1.2em;
 }
 
 select {
-    background: #c0c0c0;
-    padding: .3em;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-    border: none;
-    font-family: monospace, sans-serif;
+  background: #c0c0c0;
+  padding: 0.3em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
+    inset 2px 2px #dfdfdf;
+  border: none;
+  font-family: monospace, sans-serif;
 }
 
 footer div {
-    background-color: #c0c0c0;
-    height: 2em;
-    width: 100%;
-    border-top: 2px solid #f9f9f9;;
+  background-color: #c0c0c0;
+  height: 2em;
+  width: 100%;
+  border-top: 2px solid #f9f9f9;
 }
 
 footer div button {
-    background-color: #c0c0c0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-    border: none;
-    font-family: monospace, sans-serif;
-    max-width: 5em;
-    width: 50%;
-    height: 85%;
-    margin: 0.2em 0 0 0.2em;
+  background-color: #c0c0c0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
+    inset 2px 2px #dfdfdf;
+  border: none;
+  font-family: monospace, sans-serif;
+  max-width: 5em;
+  width: 50%;
+  height: 85%;
+  margin: 0.2em 0 0 0.2em;
 }
 
 @supports (position: fixed) {
-    footer div {
-        position: fixed;
-        bottom: 0;
-    }
+  footer div {
+    position: fixed;
+    bottom: 0;
+  }
 }
 
 @supports (jemoeder: mooi) {
-    body {
-        opacity: 0;
-    }
+  body {
+    opacity: 0;
+  }
 }
 
 ::-webkit-scrollbar {
-    width: 16px;
-  }
-  ::-webkit-scrollbar:horizontal {
-    height: 17px;
-  }
-  
-  ::-webkit-scrollbar-corner {
-    background: #dfdfdf;
+  width: 16px;
 }
-  
-  ::-webkit-scrollbar-track {
-    background-image: url("../images/scrollbar-background.svg");
-  }
-  
-  ::-webkit-scrollbar-thumb {
-    background-color: #dfdfdf;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+::-webkit-scrollbar:horizontal {
+  height: 17px;
 }
-  
-  ::-webkit-scrollbar-button:horizontal:start:decrement,
-  ::-webkit-scrollbar-button:horizontal:end:increment,
-  ::-webkit-scrollbar-button:vertical:start:decrement,
-  ::-webkit-scrollbar-button:vertical:end:increment {
-    display: block;
-  }
-  
-  ::-webkit-scrollbar-button:vertical:start {
-    height: 17px;
-    background-image: url("../images/button-up.svg");
-  }
-  ::-webkit-scrollbar-button:vertical:end {
-    height: 17px;
-    background-image: url("../images/button-down.svg");
-  }
-  ::-webkit-scrollbar-button:horizontal:start {
-    width: 16px;
-    background-image: url("../images/button-left.svg");
-  }
-  ::-webkit-scrollbar-button:horizontal:end {
-    width: 16px;
-    background-image: url("../images/button-right.svg");
-  }
+
+::-webkit-scrollbar-corner {
+  background: #dfdfdf;
+}
+
+::-webkit-scrollbar-track {
+  background-image: url("../images/scrollbar-background.svg");
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #dfdfdf;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
+    inset 2px 2px #dfdfdf;
+}
+
+::-webkit-scrollbar-button:horizontal:start:decrement,
+::-webkit-scrollbar-button:horizontal:end:increment,
+::-webkit-scrollbar-button:vertical:start:decrement,
+::-webkit-scrollbar-button:vertical:end:increment {
+  display: block;
+}
+
+::-webkit-scrollbar-button:vertical:start {
+  height: 17px;
+  background-image: url("../images/button-up.svg");
+}
+::-webkit-scrollbar-button:vertical:end {
+  height: 17px;
+  background-image: url("../images/button-down.svg");
+}
+::-webkit-scrollbar-button:horizontal:start {
+  width: 16px;
+  background-image: url("../images/button-left.svg");
+}
+::-webkit-scrollbar-button:horizontal:end {
+  width: 16px;
+  background-image: url("../images/button-right.svg");
+}
