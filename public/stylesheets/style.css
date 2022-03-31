@@ -29,6 +29,9 @@ section {
 }
 
 input:active, select:active, footer div button:active, input[type=submit]:active {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     box-shadow: inset -1px -1px #ffffff, inset 1px 1px #0a0a0a, inset -2px -2px #dfdfdf, inset 2px 2px #808080;
 }
 
@@ -49,6 +52,9 @@ form {
 fieldset {
     margin: 1em 0;
     padding: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
     background: white;
     border: none;
@@ -67,6 +73,9 @@ li {
 legend {
     background: #c0c0c0;
     padding: 0.2em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
     border: none;
     text-align: left;
@@ -75,6 +84,9 @@ legend {
 input {
     background: #fff;
     padding: .3em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
     font-family: monospace, sans-serif;
     border: none;
@@ -82,6 +94,9 @@ input {
 
 input[type=submit] {
     background: #c0c0c0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
     border: none;
     margin-bottom: .6em;
@@ -91,6 +106,9 @@ input[type=submit] {
 select {
     background: #c0c0c0;
     padding: .3em;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
     border: none;
     font-family: monospace, sans-serif;
@@ -105,6 +123,9 @@ footer div {
 
 footer div button {
     background-color: #c0c0c0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
     box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
     border: none;
     font-family: monospace, sans-serif;
