@@ -4,14 +4,15 @@
   <main>
     <section>
       <h1>CMD Vragen</h1>
-      <form method="post" enctype="application/x-www-form-urlencoded" action="/">
+      <div>
+      <form method="post" enctype="application/x-www-form-urlencoded" action="/" name="formulier" id="formulier">
 		<fieldset>
           <legend>Invullen Vak 1</legend>
 		  <input type="text" value="Invullen Vak 1" id="vaknaam" name="vaknaam" required>
           <ul>
             <li>
               <label for="name">
-                je naam: <input type="text" id="name" name="naamStudent" placeholder="Je naam" required>
+                Je naam: <input type="text" id="name" name="naamStudent" placeholder="Je naam" required>
               </label>
             </li>
             <li>
@@ -34,15 +35,15 @@
             </li>
             <li>
               <label for="leerstof">Hoe vond je de leerstof? (0-10)</label>
-              <input type="number" id="leerstof" name="leerstof" min="0" max="10" placeholder="0" required>
+              <input type="number" id="leerstof" name="leerstof" min="1" max="10" placeholder="1" required>
             </li>
             <li>
               <label for="uitleg">Hoe vond je de uitleg? (0-10)</label>
-              <input type="number" id="uitleg" name="uitleg" min="0" max="10" placeholder="0" required>
+              <input type="number" id="uitleg" name="uitleg" min="1" max="10" placeholder="1" required>
             </li>
             <li>
               <label for="inzicht">Hoe vond je de inzicht? (0-10)</label>
-              <input type="number" id="inzicht" name="inzicht" min="0" max="10" placeholder="0" required>
+              <input type="number" id="inzicht" name="inzicht" min="1" max="10" placeholder="1" required>
             </li>
           </ul>
         </fieldset>
@@ -52,7 +53,7 @@
           <ul>
             <li>
               <label for="name">
-                je naam: <input type="text" id="name" name="naamStudent" placeholder="Je naam" required>
+                Je naam: <input type="text" id="name" name="naamStudent" placeholder="Je naam" required>
               </label>
             </li>
             <li>
@@ -75,15 +76,15 @@
             </li>
             <li>
               <label for="leerstof">Hoe vond je de leerstof? (0-10)</label>
-              <input type="number" id="leerstof" name="leerstof" min="0" max="10" placeholder="0" required>
+              <input type="number" id="leerstof" name="leerstof" min="1" max="10" placeholder="1" required>
             </li>
             <li>
               <label for="uitleg">Hoe vond je de uitleg? (0-10)</label>
-              <input type="number" id="uitleg" name="uitleg" min="0" max="10" placeholder="0" required>
+              <input type="number" id="uitleg" name="uitleg" min="1" max="10" placeholder="1" required>
             </li>
             <li>
               <label for="inzicht">Hoe vond je de inzicht? (0-10)</label>
-              <input type="number" id="inzicht" name="inzicht" min="0" max="10" placeholder="0" required>
+              <input type="number" id="inzicht" name="inzicht" min="1" max="10" placeholder="1" required>
             </li>
           </ul>
         </fieldset>
@@ -93,7 +94,7 @@
           <ul>
             <li>
               <label for="name">
-                je naam: <input type="text" id="name" name="naamStudent" placeholder="Je naam" required>
+                Je naam: <input type="text" id="name" name="naamStudent" placeholder="Je naam" required>
               </label>
             </li>
             <li>
@@ -116,15 +117,15 @@
             </li>
             <li>
               <label for="leerstof">Hoe vond je de leerstof? (0-10)</label>
-              <input type="number" id="leerstof" name="leerstof" min="0" max="10" placeholder="0" required>
+              <input type="number" id="leerstof" name="leerstof" min="1" max="10" placeholder="1" required>
             </li>
             <li>
               <label for="uitleg">Hoe vond je de uitleg? (0-10)</label>
-              <input type="number" id="uitleg" name="uitleg" min="0" max="10" placeholder="0" required>
+              <input type="number" id="uitleg" name="uitleg" min="1" max="10" placeholder="1" required>
             </li>
             <li>
               <label for="inzicht">Hoe vond je de inzicht? (0-10)</label>
-              <input type="number" id="inzicht" name="inzicht" min="0" max="10" placeholder="0" required>
+              <input type="number" id="inzicht" name="inzicht" min="1" max="10" placeholder="1" required>
             </li>
           </ul>
         </fieldset>
@@ -134,7 +135,7 @@
           <ul>
             <li>
               <label for="name">
-                je naam: <input type="text" id="name" name="naamStudent" placeholder="Je naam" required>
+                Je naam: <input type="text" id="name" name="naamStudent" placeholder="Je naam" required>
               </label>
             </li>
             <li>
@@ -157,24 +158,31 @@
             </li>
             <li>
               <label for="leerstof">Hoe vond je de leerstof? (0-10)</label>
-              <input type="number" id="leerstof" name="leerstof" min="0" max="10" placeholder="0" required>
+              <input type="number" id="leerstof" name="leerstof" min="1" max="10" placeholder="1" required>
             </li>
             <li>
               <label for="uitleg">Hoe vond je de uitleg? (0-10)</label>
-              <input type="number" id="uitleg" name="uitleg" min="0" max="10" placeholder="0" required>
+              <input type="number" id="uitleg" name="uitleg" min="1" max="10" placeholder="1" required>
             </li>
             <li>
               <label for="inzicht">Hoe vond je de inzicht? (0-10)</label>
-              <input type="number" id="inzicht" name="inzicht" min="0" max="10" placeholder="0" required>
+              <input type="number" id="inzicht" name="inzicht" min="1" max="10" placeholder="1" required>
             </li>
           </ul>
         </fieldset>
-        <input type="submit">
       </form>
+      </div>
+      <input type="submit" form="formulier">
     </section>
+    {{!-- {{eerder_opgeslagen_data}} --}}
   </main>
   <footer>
     <div>
-      <button>Start</button>
+      <div></div>
+      <div></div>
+      <div>
+        <div></div>
+        <div></div>
+      </div>
     </div>
   </footer>

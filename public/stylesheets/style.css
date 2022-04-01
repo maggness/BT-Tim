@@ -1,21 +1,64 @@
 /* Hulpje: https://jdan.github.io/98.css/ */
 
+@supports not (font-family: Pixelated MS Sans Serif) {
+  footer > div > div:first-of-type {
+    background-color: #c0c0c0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+    border: none;
+    font-family: Pixelated MS Sans Serif, monospace, sans-serif;
+    max-width: 5.6em;
+    width: 50%;
+    height: 85%;
+    margin: 0.2em 0 0 0.2em;
+    color: black;
+    text-align: right;
+  }
+
+  footer > div > div:nth-of-type(2) {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    box-shadow: inset 1px 1px grey;
+    background-image: url(../images/scrollbar-background.svg);
+    position: absolute;
+    bottom: 0.2em;
+    left: 6.3em;
+    width: 100%;
+    max-width: 7em;
+    height: 76%;
+    text-align: center;
+  }
+}
+
+@font-face {
+  -webkit-font-smoothing: none;
+  font-family: "Pixelated MS Sans Serif";
+  src: url("../fonts/converted/ms_sans_serif.woff") format("woff");
+  src: url("../fonts/converted/ms_sans_serif.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   background-image: url(../images/background98.png);
   background-color: #008081;
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: monospace, sans-serif;
+  font-family: Pixelated MS Sans Serif, monospace, sans-serif;
   margin: 0;
 }
 
 h1 {
   margin: 0;
   background: linear-gradient(90deg, navy, #1084d0), blue;
-  padding: 0 0.3em;
+  padding: 0.1em 0.3em;
   border: 2px solid #f9f9f9;
   color: #fff;
   font-weight: 100;
+  text-align: left;
+  font-size: 1em;
 }
 
 section {
@@ -26,13 +69,15 @@ section {
   max-width: 40em;
   margin: auto;
   margin-top: 1em;
-  height: 90vh;
+  height: 92.5vh;
+  text-align: center;
 }
 
 input:active,
 select:active,
 footer div button:active,
-input[type="submit"]:active {
+input[type="submit"]:active,
+footer > div > div:first-of-type:active {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -43,7 +88,8 @@ input[type="submit"]:active {
 input:focus,
 select:focus,
 footer div button:focus,
-input[type="submit"]:focus {
+input[type="submit"]:focus,
+footer > div > div:first-of-type:focus {
   outline: 1px dotted #000000;
   outline-offset: -4px;
 }
@@ -51,7 +97,6 @@ input[type="submit"]:focus {
 form {
   padding: 0 1em;
   margin-bottom: 0.5em;
-  text-align: center;
   overflow-y: scroll;
   overflow-x: hidden;
   height: 84.6vh;
@@ -85,7 +130,7 @@ li {
 
 legend {
   background: #c0c0c0;
-  padding: 0.2em;
+  padding: 0.3em 1em;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -103,7 +148,7 @@ input {
   appearance: none;
   box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf,
     inset 2px 2px #0a0a0a;
-  font-family: monospace, sans-serif;
+  font-family: Pixelated MS Sans Serif, monospace, sans-serif;
   border: none;
 }
 
@@ -120,25 +165,44 @@ input[type="submit"] {
 }
 
 select {
-  background: #c0c0c0;
+  background-color: #fff;
+  box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf,
+    inset 2px 2px #0a0a0a;
   padding: 0.3em;
+  appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  appearance: none;
-  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
-    inset 2px 2px #dfdfdf;
+  background-image: url(../images/button-down.svg);
+  background-position: top 2px right 2px;
+  background-repeat: no-repeat;
+  border-radius: 0;
   border: none;
-  font-family: monospace, sans-serif;
+  font-family: Pixelated MS Sans Serif, monospace, sans-serif;
+  min-width: 7em;
 }
 
-footer div {
+select:active {
+  background-image: url(../images/button-down-active.svg);
+}
+
+select:focus {
+  background-color: navy;
+  color: #fff;
+}
+
+option {
+  background-color: white;
+  color: black;
+}
+
+footer > div {
   background-color: #c0c0c0;
   height: 2em;
   width: 100%;
   border-top: 2px solid #f9f9f9;
 }
 
-footer div button {
+footer > div > div:first-of-type {
   background-color: #c0c0c0;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -146,16 +210,108 @@ footer div button {
   box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
     inset 2px 2px #dfdfdf;
   border: none;
-  font-family: monospace, sans-serif;
-  max-width: 5em;
+  font-family: Pixelated MS Sans Serif, monospace, sans-serif;
+  max-width: 4.6em;
   width: 50%;
   height: 85%;
   margin: 0.2em 0 0 0.2em;
   color: black;
+  text-align: right;
+}
+
+footer > div > div:first-of-type:after {
+  content: "Start";
+  bottom: 0.45em;
+  position: absolute;
+  left: 2.3em;
+  font-weight: 900;
+}
+
+footer > div > div:first-of-type::before {
+  background-image: url(../images/windows.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 1.4em;
+  width: 1.4em;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0em 0 0.15em 0.6em;
+}
+
+footer > div > div:nth-of-type(2) {
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  box-shadow: inset 1px 1px grey;
+  background-image: url(../images/scrollbar-background.svg);
+  position: absolute;
+  bottom: 0.2em;
+  left: 5.3em;
+  width: 100%;
+  max-width: 7em;
+  height: 76%;
+  text-align: center;
+}
+
+footer > div > div:nth-of-type(2):before {
+  content: "CMD Vragen";
+  bottom: 0.2em;
+  position: absolute;
+  left: 0.6em;
+  font-weight: 300;
+}
+
+footer > div > div:last-of-type {
+  background-color: #c0c0c0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: inset -1px -1px #dfdfdf, inset 1px 1px grey;
+  border: none;
+  font-family: Pixelated MS Sans Serif, monospace, sans-serif;
+  max-width: 8em;
+  width: 100%;
+  height: 85%;
+  color: black;
+  text-align: right;
+  position: absolute;
+  bottom: 0.2em;
+  right: 0.2em;
+}
+
+footer > div > div:last-of-type:after {
+  content: "3:33 PM";
+  bottom: 0.3em;
+  position: absolute;
+  right: 0.4em;
+  font-weight: 100;
+}
+
+footer > div > div:last-of-type > div:first-of-type {
+  background-image: url(../images/calendar.png);
+  height: 1.2em;
+  width: 1.2em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0.25em;
+  right: 6.5em;
+}
+
+footer > div > div:last-of-type > div:last-of-type {
+  background-image: url(../images/loudspeaker.png);
+  height: 1.2em;
+  width: 1.2em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  bottom: 0.25em;
+  right: 5em;
 }
 
 @supports (position: fixed) {
-  footer div {
+  footer > div {
     position: fixed;
     bottom: 0;
   }

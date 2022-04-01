@@ -49,7 +49,6 @@ app.post('/', (req, res) => {
 	res.render('home')
 })
 
-
 app.listen(port, () => {
 	console.log(
 	  `Lekker man, hij is hier te vinden: http://${hostname}:${port}/, zo niet zoek het uit.`
