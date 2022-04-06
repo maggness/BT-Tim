@@ -50,7 +50,8 @@ body {
 
 h1 {
   margin: 0;
-  background: linear-gradient(90deg, navy, #1084d0), blue;
+  background: linear-gradient(90deg, navy, #1084d0);
+  background-color: blue;
   padding: 0.1em 0.3em;
   border: 2px solid #f9f9f9;
   color: #fff;
@@ -64,11 +65,9 @@ section {
   box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
   border: none;
   max-width: 40em;
-  margin: auto;
-  margin-top: 1em;
-  height: 91.5vh;
+  margin: 2.5em auto;
+  width: 100%;
   text-align: center;
-  max-height: 54em;
 }
 
 input:active,
@@ -160,6 +159,7 @@ input[type="submit"] {
   padding: 0.5em 1.2em;
   bottom: 0.5%;
   position: relative;
+  margin: 2% 0;
 }
 
 select {
@@ -176,7 +176,12 @@ select {
   border-radius: 0;
   border: none;
   font-family: Pixelated MS Sans Serif, monospace, sans-serif;
-  min-width: 7em;
+  max-width: 15em;
+  padding-right: 1.5em;
+}
+
+select, textarea {
+  background-color: white;
 }
 
 select:active {
@@ -208,8 +213,8 @@ footer > div > div:first-of-type {
   box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
   border: none;
   font-family: Pixelated MS Sans Serif, monospace, sans-serif;
-  max-width: 4.6em;
-  width: 20%;
+  max-width: 5.2em;
+  width: 25%;
   height: 85%;
   margin: 0.2em 0 0 0.2em;
   color: black;
@@ -228,8 +233,8 @@ footer > div > div:first-of-type::before {
   background-image: url(../images/windows.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 5vw;
-  width: 5vw;
+  height: 5em;
+  width: 5em;
   max-width: 1.3em;
   max-height: 1.3em;
   content: "";
@@ -246,7 +251,7 @@ footer > div > div:nth-of-type(2) {
   background-image: url(../images/scrollbar-background.svg);
   position: absolute;
   bottom: 0.2em;
-  left: 5.3em;
+  left: 6em;
   width: 30%;
   max-width: 7em;
   height: 76%;
@@ -289,8 +294,8 @@ footer > div > div:last-of-type:after {
 
 footer > div > div:last-of-type > div:first-of-type {
   background-image: url(../images/calendar.png);
-  height: 5vw;
-  width: 5vw;
+  height: 4.5em;
+  width: 4.5em;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -302,8 +307,8 @@ footer > div > div:last-of-type > div:first-of-type {
 
 footer > div > div:last-of-type > div:last-of-type {
   background-image: url(../images/loudspeaker.png);
-  height: 5vw;
-  width: 5vw;
+  height: 4.5em;
+  width: 4.5em;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
@@ -367,4 +372,73 @@ footer > div {
 ::-webkit-scrollbar-button:horizontal:end {
   width: 16px;
   background-image: url("../images/button-right.svg");
+}
+
+section img {
+  width: 4%;
+  display: inline;
+  margin-bottom: 1em;
+}
+
+table {
+  width: 94%;
+  margin: 1em 3%;
+  padding: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf,
+    inset 2px 2px #0a0a0a;
+  background: white;
+  border: none;
+}
+
+h2 span {
+  color: darkred;
+}
+#e
+tr {
+  padding: .4em 1em;
+}
+
+tbody tr:first-of-type {
+  background-color: #d8d8d8;
+}
+
+tr:nth-child(odd) {
+  background-color: #e4e4e4;
+}
+
+th {
+  padding: .4em 1em;
+  border-bottom: gray 1px solid;
+  border-left: 1px solid gray;
+}
+
+td {
+  padding: .4em 1em;
+  border-bottom: gray 1px solid;
+  border-left: 1px solid gray;
+}
+
+
+@media screen and (max-width: 380px) {
+  body {
+    font-size: .7em;
+  }
+
+  footer > div > div:first-of-type:after {
+    content: "Start";
+    bottom: 0.45em;
+    position: absolute;
+    left: 2.3em;
+    font-weight: 900;
+    font-size: .9em;
+  } 
+}
+
+@media screen and (max-width: 500px) {
+  table {
+    font-size: .65em;
+  }
 }

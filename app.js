@@ -42,12 +42,22 @@ app.post('/', (req, res) => {
 
 	console.log(userInput);
 
-	fs.writeFile('informatie.json', userInput, 'utf8', cb => {
+	fs.writeFile('Voorhees.json', userInput, 'utf8', cb => {
 		console.log('werk dan');
 	});
-
-	res.render('home')
+	res.redirect('resultaten')
 })
+
+app.get('/resultaten', (req, res) => {
+	fs.readFile('Voorhees.json', 'utf8', function (err, data) {
+		if (err) throw err;
+		let info = JSON.parse(data);
+		console.log(info)
+		res.render('resultaten', {
+			data: info
+		})
+	});
+});
 
 app.listen(port, () => {
 	console.log(
