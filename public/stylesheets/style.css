@@ -310,11 +310,9 @@ footer > div > div:last-of-type > div:last-of-type {
   right: 5em;
 }
 
-@supports (position: fixed) {
-  footer > div {
-    position: fixed;
-    bottom: 0;
-  }
+footer > div {
+  position: fixed;
+  bottom: 0;
 }
 
 @supports (jemoeder: dun) {
