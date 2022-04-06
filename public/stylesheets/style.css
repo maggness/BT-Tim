@@ -1,6 +1,5 @@
 /* Hulpje: https://jdan.github.io/98.css/ */
 
-@supports not (font-family: Pixelated MS Sans Serif) {
   footer > div > div:first-of-type {
     background-color: #c0c0c0;
     -webkit-appearance: none;
@@ -30,7 +29,6 @@
     height: 76%;
     text-align: center;
   }
-}
 
 @font-face {
   -webkit-font-smoothing: none;
