@@ -317,7 +317,7 @@ footer > div > div:last-of-type > div:last-of-type {
   }
 }
 
-@supports (jemoeder: mooi) {
+@supports (jemoeder: dun) {
   body {
     opacity: 0;
   }
