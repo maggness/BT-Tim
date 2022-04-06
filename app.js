@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 // Route. Luistert naar alle GET requests op /
 app.get('/', (req, res) => {
 
-	fs.readFile('informatie.json', 'utf8', function (err, data) {
+	fs.readFile('Voorhees.json', 'utf8', function (err, data) {
 	  if (err) throw err;
 	  let info = JSON.parse(data);
 

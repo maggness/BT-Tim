@@ -195,119 +195,121 @@ option {
   color: black;
 }
 
-footer > div {
-  background-color: #c0c0c0;
-  height: 2em;
-  width: 100%;
-  border-top: 2px solid #f9f9f9;
-}
+@supports ( position: absolute ) {
+  footer > div {
+    background-color: #c0c0c0;
+    height: 2em;
+    width: 100%;
+    border-top: 2px solid #f9f9f9;
+  }
+  
+  footer > div > div:first-of-type {
+    background-color: #c0c0c0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
+      inset 2px 2px #dfdfdf;
+    border: none;
+    font-family: Pixelated MS Sans Serif, monospace, sans-serif;
+    max-width: 4.6em;
+    width: 50%;
+    height: 85%;
+    margin: 0.2em 0 0 0.2em;
+    color: black;
+    text-align: right;
+  }
+  
+  footer > div > div:first-of-type:after {
+    content: "Start";
+    bottom: 0.45em;
+    position: absolute;
+    left: 2.3em;
+    font-weight: 900;
+  }
 
-footer > div > div:first-of-type {
-  background-color: #c0c0c0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
-    inset 2px 2px #dfdfdf;
-  border: none;
-  font-family: Pixelated MS Sans Serif, monospace, sans-serif;
-  max-width: 4.6em;
-  width: 50%;
-  height: 85%;
-  margin: 0.2em 0 0 0.2em;
-  color: black;
-  text-align: right;
-}
+  footer > div > div:first-of-type::before {
+    background-image: url(../images/windows.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 1.4em;
+    width: 1.4em;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0em 0 0.15em 0.6em;
+  }
 
-footer > div > div:first-of-type:after {
-  content: "Start";
-  bottom: 0.45em;
-  position: absolute;
-  left: 2.3em;
-  font-weight: 900;
-}
+  footer > div > div:nth-of-type(2) {
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    box-shadow: inset 1px 1px grey;
+    background-image: url(../images/scrollbar-background.svg);
+    position: absolute;
+    bottom: 0.2em;
+    left: 5.3em;
+    width: 100%;
+    max-width: 7em;
+    height: 76%;
+    text-align: center;
+  }
 
-footer > div > div:first-of-type::before {
-  background-image: url(../images/windows.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  height: 1.4em;
-  width: 1.4em;
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin: 0em 0 0.15em 0.6em;
-}
+  footer > div > div:nth-of-type(2):before {
+    content: "CMD Vragen";
+    bottom: 0.2em;
+    position: absolute;
+    left: 0.6em;
+    font-weight: 300;
+  }
 
-footer > div > div:nth-of-type(2) {
-  border-top: 1px solid #000;
-  border-left: 1px solid #000;
-  box-shadow: inset 1px 1px grey;
-  background-image: url(../images/scrollbar-background.svg);
-  position: absolute;
-  bottom: 0.2em;
-  left: 5.3em;
-  width: 100%;
-  max-width: 7em;
-  height: 76%;
-  text-align: center;
-}
+  footer > div > div:last-of-type {
+    background-color: #c0c0c0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    box-shadow: inset -1px -1px #dfdfdf, inset 1px 1px grey;
+    border: none;
+    font-family: Pixelated MS Sans Serif, monospace, sans-serif;
+    max-width: 8em;
+    width: 100%;
+    height: 85%;
+    color: black;
+    text-align: right;
+    position: absolute;
+    bottom: 0.2em;
+    right: 0.2em;
+  }
 
-footer > div > div:nth-of-type(2):before {
-  content: "CMD Vragen";
-  bottom: 0.2em;
-  position: absolute;
-  left: 0.6em;
-  font-weight: 300;
-}
+  footer > div > div:last-of-type:after {
+    content: "3:33 PM";
+    bottom: 0.3em;
+    position: absolute;
+    right: 0.4em;
+    font-weight: 100;
+  }
 
-footer > div > div:last-of-type {
-  background-color: #c0c0c0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  box-shadow: inset -1px -1px #dfdfdf, inset 1px 1px grey;
-  border: none;
-  font-family: Pixelated MS Sans Serif, monospace, sans-serif;
-  max-width: 8em;
-  width: 100%;
-  height: 85%;
-  color: black;
-  text-align: right;
-  position: absolute;
-  bottom: 0.2em;
-  right: 0.2em;
-}
-
-footer > div > div:last-of-type:after {
-  content: "3:33 PM";
-  bottom: 0.3em;
-  position: absolute;
-  right: 0.4em;
-  font-weight: 100;
-}
-
-footer > div > div:last-of-type > div:first-of-type {
-  background-image: url(../images/calendar.png);
-  height: 1.2em;
-  width: 1.2em;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 0.25em;
-  right: 6.5em;
-}
-
-footer > div > div:last-of-type > div:last-of-type {
-  background-image: url(../images/loudspeaker.png);
-  height: 1.2em;
-  width: 1.2em;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: absolute;
-  bottom: 0.25em;
-  right: 5em;
+  footer > div > div:last-of-type > div:first-of-type {
+    background-image: url(../images/calendar.png);
+    height: 1.2em;
+    width: 1.2em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0.25em;
+    right: 6.5em;
+  }
+  
+  footer > div > div:last-of-type > div:last-of-type {
+    background-image: url(../images/loudspeaker.png);
+    height: 1.2em;
+    width: 1.2em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom: 0.25em;
+    right: 5em;
+  }
 }
 
 @supports (position: fixed) {
