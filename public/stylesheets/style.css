@@ -61,14 +61,14 @@ h1 {
 
 section {
   background: #c0c0c0;
-  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
-    inset 2px 2px #dfdfdf;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
   border: none;
   max-width: 40em;
   margin: auto;
   margin-top: 1em;
-  height: 92.5vh;
+  height: 91.5vh;
   text-align: center;
+  max-height: 54em;
 }
 
 input:active,
@@ -97,7 +97,7 @@ form {
   margin-bottom: 0.5em;
   overflow-y: scroll;
   overflow-x: hidden;
-  height: 84.6vh;
+  height: 81.6vh;
 }
 
 #vaknaam {
@@ -155,11 +155,11 @@ input[type="submit"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
-    inset 2px 2px #dfdfdf;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
   border: none;
-  margin-bottom: 0.6em;
   padding: 0.5em 1.2em;
+  bottom: 0.5%;
+  position: relative;
 }
 
 select {
@@ -205,12 +205,11 @@ footer > div > div:first-of-type {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
-    inset 2px 2px #dfdfdf;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
   border: none;
   font-family: Pixelated MS Sans Serif, monospace, sans-serif;
   max-width: 4.6em;
-  width: 50%;
+  width: 20%;
   height: 85%;
   margin: 0.2em 0 0 0.2em;
   color: black;
@@ -229,13 +228,15 @@ footer > div > div:first-of-type::before {
   background-image: url(../images/windows.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 1.4em;
-  width: 1.4em;
+  height: 5vw;
+  width: 5vw;
+  max-width: 1.3em;
+  max-height: 1.3em;
   content: "";
   position: absolute;
-  bottom: 0;
+  bottom: 0.2em;
   left: 0;
-  margin: 0em 0 0.15em 0.6em;
+  margin: 0em 0 0 0.6em;
 }
 
 footer > div > div:nth-of-type(2) {
@@ -246,7 +247,7 @@ footer > div > div:nth-of-type(2) {
   position: absolute;
   bottom: 0.2em;
   left: 5.3em;
-  width: 100%;
+  width: 30%;
   max-width: 7em;
   height: 76%;
   text-align: center;
@@ -269,7 +270,7 @@ footer > div > div:last-of-type {
   border: none;
   font-family: Pixelated MS Sans Serif, monospace, sans-serif;
   max-width: 8em;
-  width: 100%;
+  width: 30%;
   height: 85%;
   color: black;
   text-align: right;
@@ -288,24 +289,28 @@ footer > div > div:last-of-type:after {
 
 footer > div > div:last-of-type > div:first-of-type {
   background-image: url(../images/calendar.png);
-  height: 1.2em;
-  width: 1.2em;
+  height: 5vw;
+  width: 5vw;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
   bottom: 0.25em;
-  right: 6.5em;
+  margin: 0 0 0 6%;
+  max-width: 1.3em;
+  max-height: 1.3em;
 }
 
 footer > div > div:last-of-type > div:last-of-type {
   background-image: url(../images/loudspeaker.png);
-  height: 1.2em;
-  width: 1.2em;
+  height: 5vw;
+  width: 5vw;
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute;
   bottom: 0.25em;
-  right: 5em;
+  margin: 0 0 0 28%;
+  max-width: 1.3em;
+  max-height: 1.3em;
 }
 
 footer > div {
