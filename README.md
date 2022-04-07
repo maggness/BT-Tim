@@ -35,6 +35,12 @@ if (typeof(Storage) !== "undefined") {
    console.log('localStorage is not supported')
 }
 ```
+## Breakdown schets 
+
+![](https://user-images.githubusercontent.com/30145681/162193754-c53e62ab-dd59-400d-8154-6138a31486a3.jpeg)
+![](https://user-images.githubusercontent.com/30145681/162193765-637c7886-5db9-4e05-b107-3765c1ee9fb4.jpeg)
+![](https://user-images.githubusercontent.com/30145681/162193771-51556293-51cb-4d69-9ddf-c2a04f102e95.jpeg)
+
 
 ## Future features
 
