@@ -18,16 +18,25 @@ Resultaten pagina
 _Ik wil een enquête kunnen invullen over de minor Web Development, met verschillende antwoordmogelijkheden. Als ik de enquête niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven._
 
 ## Table of contents
-- [Browser Technologies @cmda-minor-web 98-99](#browser-technologies--cmda-minor-web-98-99)
+- [Browser Technologies @cmda-minor-web 98-99](#browser-technologies-cmda-minor-web-98-99)
+  * [Installatie](#installatie)
   * [User story](#user-story)
   * [Functies](#functies)
   * [Wat is Progressive Enhancement?](#wat-is-progressive-enhancement)
   * [Functional, Reliable, Usable & Pleasurable](#functional-reliable-usable--pleasurable)
   * [Schetsen](#schetsen)
+  * [Testen](#testen)
   * [Future features](#future-features)
   * [Licence](#licence)
   * [Resources](#resources)
 
+## Installatie
+
+In je console plak deze code: `git clone gh repo clone maggness/BT-Tim` of open het met github desktop.
+
+CD naar de juiste project folder
+
+Type npm install in de console
 
 ## Functies
 
@@ -78,7 +87,7 @@ if (typeof(Storage) !== "undefined") {
 
 ## Testen
 
-Ik heb mijn app getest in de nieuwe chrome, firefox & chrome op de One Plus 9 telefoon. Ook heb ik gestest op safari van de iPod touch met IOS 3.
+Ik heb mijn app getest in op de nieuwste chrome, firefox & chrome op de One Plus 9 telefoon. Ook heb ik gestest op safari van de iPod touch met IOS 3.
 
 Bij Chrome is net veel op te merken, maar bij firefox & IOS wel. Voor deze heb je een extra element nodig om de default styling te overschijven, bijvoorbeeld zo:
 ```css
@@ -100,6 +109,9 @@ Bij de IPod touch ben ik een paar dingen tegen gekomen die niet werken:
 
 - Verbeterde form validator
 - Beter onthouden waar je bent gebleven
+- 98 Desktop meer interactief maken
+- Meer dan 1 Enquête op kunnen slaan
+- UI verbeteringen 
 
 ## Licence
 
@@ -110,3 +122,11 @@ Dit project is voorzien van een MIT licence. Zie de pagina LICENCE voor meer inf
 Lessen & leraren
 
 W3 Schools
+
+https://webscraping.pro/save-input-value-on-page-refresh-using-sessionstorage/
+
+https://stackoverflow.com/questions/23261301/required-attribute-not-work-in-safari-browser
+
+https://developer.mozilla.org/en-US/
+
+https://caniuse.com/
