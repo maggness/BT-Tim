@@ -8,6 +8,19 @@ _Ik wil een enquête kunnen invullen over de minor Web Development, met verschil
 
 Met deze applicatie kan je een enquete invullen voor de minor web. Je vult eerst je naam en studenten nummer in, dit wordt ook opgeslagen in local storage (als dit gesupport is). Je komt na het opsturen bij de resultaten pagina waar je je ingevulde data kan zien.
 
+## Wat is Progressive Enhancement?
+Je kan Progressive Enhancement heel makkelijk uitleggen met een kleine metafoor. Je moet bedenken dat je een cake heb. Deze cake is op zich al lekker, maar om hem nog beter te maken kan je er dingen achteraf op toevoegen. Dit doe je ook met een website of webapplicatie. Je maakt de core van de app zodat het de functionaliteiten heeft die het moet hebben en dan ga je kijken hoe je het nog kan uitbreiden zodat je app beter wordt. 
+
+Als je dit toepast zorg je ervoor dat je de meeste stabiliteit heb voor browsers. Niet alle browsers ondersteunen evenveel, dus als je ervoor zorgt dat je alle basis functionaliteiten zo makkelijk mogelijk erin krijgt zorg je ervoor dat de meeste browsers het kunnen gebruiken, en dan breid je het nog is uit om het effectiever te maken voor de browsers die het ondersteunen.
+
+Je hebt ook graceful degradation. Hier laat je je gebruikers weten wat er van je app te gebruiken is op welke browsers. Je laat bijvoorbeeld weten dat een bepaalde feature niet te gebruiken is op edge omdat edge het niet ondersteunt.
+
+Bronnen: _Progressive Enhancement: What It Is, And How To Use It? (2009, 22 april). Smashing Magazine. https://www.smashingmagazine.com/2009/04/progressive-enhancement-what-it-is-and-how-to-use-it/_
+
+_Gustafson, A., Cheinman, K., McGovern, G., Dauer, J., Bucher, A., & Glushien, N. (2008, 7 oktober). Understanding Progressive Enhancement. A List Apart. https://alistapart.com/article/understandingprogressiveenhancement/_
+
+_freeCodeCamp.org. (2018, 7 november). What is Progressive Enhancement, and why it matters. https://www.freecodecamp.org/news/what-is-progressive-enhancement-and-why-it-matters-e80c7aaf834a/_
+
 ## Functional, Reliable, Usable & Pleasurable
 
 De functional/reliable is mijn HTML, je ziet als de css/js uit staat een sterke html basis. Hierdoor kan je nog steeds de enquête invullen, verzenden en bekijken. Als de browser het ondersteund wordt er required gebruikt om het formulier te valideren. De data wordt opgeslagen in Voorhees.json om dit weer op te kunnen halen.
@@ -35,11 +48,9 @@ if (typeof(Storage) !== "undefined") {
    console.log('localStorage is not supported')
 }
 ```
-## Breakdown schets 
+## Schetsen 
+![breakdown](https://user-images.githubusercontent.com/30145681/162204166-76f638f3-7a0c-47c0-bb31-789398c3e6e2.png)
 
-![](https://user-images.githubusercontent.com/30145681/162193754-c53e62ab-dd59-400d-8154-6138a31486a3.jpeg)
-![](https://user-images.githubusercontent.com/30145681/162193765-637c7886-5db9-4e05-b107-3765c1ee9fb4.jpeg)
-![](https://user-images.githubusercontent.com/30145681/162193771-51556293-51cb-4d69-9ddf-c2a04f102e95.jpeg)
 
 
 ## Future features
