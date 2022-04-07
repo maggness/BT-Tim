@@ -76,7 +76,25 @@ if (typeof(Storage) !== "undefined") {
 ## Schetsen 
 ![breakdown](https://user-images.githubusercontent.com/30145681/162204166-76f638f3-7a0c-47c0-bb31-789398c3e6e2.png)
 
+## Testen
 
+Ik heb mijn app getest in de nieuwe chrome, firefox & chrome op de One Plus 9 telefoon. Ook heb ik gestest op safari van de iPod touch met IOS 3.
+
+Bij Chrome is net veel op te merken, maar bij firefox & IOS wel. Voor deze heb je een extra element nodig om de default styling te overschijven, bijvoorbeeld zo:
+```css
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+```
+`-webkit-` is voor IOS, `-moz-` is voor firefox.
+
+Bij de IPod touch ben ik een paar dingen tegen gekomen die niet werken:
+- let & const
+- defer (bij scripts) Hierdoor werkt javascript helemaal niet meer
+- VH & VW
+- @supports in CSS
+- Gradients werken niet
+- Required in een form
 
 ## Future features
 
