@@ -22,7 +22,7 @@ Zo kan je @supports gebruiken:
 ```css
 @supports ( display: flex ) {
    ul {
-display: flex;
+      display: flex;
     }
 }
 ```
@@ -30,9 +30,9 @@ display: flex;
 Je kan ook via javascript kijken of iets gesupport is, dat doe je zo:
 ```javascript
 if (typeof(Storage) !== "undefined") {
-// code voor localStorage
+   // code voor localStorage
 } else {
-console.log('localStorage is not supported')
+   console.log('localStorage is not supported')
 }
 ```
 
