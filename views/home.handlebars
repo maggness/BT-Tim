@@ -1,189 +1,348 @@
-  <header>
-    <noscript>
-      <p>Je javascript staat uit, dit kan voor een minder "enhanced experience" zorgen.</p>
-    </noscript>
-  </header>
-  <main>
-    <section>
-      <h1>CMD Vragen</h1>
-      <div>
-        <form method="post" enctype="application/x-www-form-urlencoded" action="/" name="formulier" id="formulier">
+<header>
+  <noscript>
+    <p>Je javascript staat uit, dit kan voor een minder "enhanced experience"
+      zorgen.</p>
+  </noscript>
+</header>
+<main>
+  <section>
+    <h1>CMD Vragen</h1>
+    <div>
+      <form
+        method="post"
+        enctype="application/x-www-form-urlencoded"
+        action="/"
+        name="formulier"
+        id="formulier"
+      >
         <ul>
           <li><label for="naamstudent">Naam</label></li>
-          <li><input type="text" name="naamstudent" required id="fieldnaam"></li>
+          <li><input
+              type="text"
+              name="naamstudent"
+              required
+              id="fieldnaam"
+            /></li>
           <li><label for="studentnummer">Studentnummer</label></li>
-          <li><input type="number" name="studentnummer" min="1" max="999999999" id="fieldnummer" required></li>
+          <li><input
+              type="number"
+              name="studentnummer"
+              min="1"
+              max="999999999"
+              id="fieldnummer"
+              required
+            /></li>
         </ul>
 
         <fieldset class="fieldForm">
-        <legend>CSS To the rescue</legend>
-        <input type="text" disabled value="CSS To the rescue" id="vaknaam" name="vaknaam" required>
-            <ul>
-                <li>
-                  <label for="docent">Van wie heb je les gehad?:</label>
-                  <select id="docent" name="docent" required>
-                    <option disabled selected value> -- Selecteer een docent -- </option>
-                    <option value="Koop & Joost">Koop & Joost</option>
-                    <option value="Sanne & Vasilis">Sanne & Vasilis</option>
-                    <option value="Robert & Peter">Robert & Peter</option>
-                    <option value="Declan & Justus">Declan & Justus</option>
-                  </select>
-                </li>
-                <li>
-                  <label for="week">In welke week heb je dit vak gehad?</label>
-                  <select id="week" name="week" required>
-                    <option disabled selected value> -- Selecteer een week -- </option>
-                    <option value="Week 1-4">Week 1-4</option>
-                    <option value="Week 5-8">Week 5-8</option>
-                    <option value="Week 9-12">Week 9-12</option>
-                    <option value="Week 13-16">Week 13-16</option>
-                  </select>
-                </li>
-              <li>
-                <label for="leerstof">Hoe vond je de leerstof? (0-10)</label>
-                <input type="number" id="leerstof" name="leerstof" min="1" max="10" placeholder="1" required>
-              </li>
-              <li>
-                <label for="uitleg">Hoe vond je de uitleg? (0-10)</label>
-                <input type="number" id="uitleg" name="uitleg" min="1" max="10" placeholder="1" required>
-              </li>
-              <li>
-                <label for="inzicht">Hoe goed snap je het? (0-10)</label>
-                <input type="number" id="inzicht" name="inzicht" min="1" max="10" placeholder="1" required>
-              </li>
-            </ul>
-          </fieldset>
+          <legend>CSS To the rescue</legend>
+          <input
+            type="text"
+            disabled
+            value="CSS To the rescue"
+            id="vaknaam"
+            name="vaknaam"
+            required
+          />
+          <ul>
+            <li>
+              <label for="docent">Van wie heb je les gehad?:</label>
+              <select id="docent" name="docent" required>
+                <option disabled selected value>
+                  -- Selecteer een docent --
+                </option>
+                <option value="Koop & Joost">Koop & Joost</option>
+                <option value="Sanne & Vasilis">Sanne & Vasilis</option>
+                <option value="Robert & Peter">Robert & Peter</option>
+                <option value="Declan & Justus">Declan & Justus</option>
+              </select>
+            </li>
+            <li>
+              <label for="week">In welke week heb je dit vak gehad?</label>
+              <select id="week" name="week" required>
+                <option disabled selected value>
+                  -- Selecteer een week --
+                </option>
+                <option value="Week 1-4">Week 1-4</option>
+                <option value="Week 5-8">Week 5-8</option>
+                <option value="Week 9-12">Week 9-12</option>
+                <option value="Week 13-16">Week 13-16</option>
+              </select>
+            </li>
+            <li>
+              <label for="leerstof">Hoe vond je de leerstof? (0-10)</label>
+              <input
+                type="number"
+                id="leerstof"
+                name="leerstof"
+                min="1"
+                max="10"
+                placeholder="1"
+                required
+              />
+            </li>
+            <li>
+              <label for="uitleg">Hoe vond je de uitleg? (0-10)</label>
+              <input
+                type="number"
+                id="uitleg"
+                name="uitleg"
+                min="1"
+                max="10"
+                placeholder="1"
+                required
+              />
+            </li>
+            <li>
+              <label for="inzicht">Hoe goed snap je het? (0-10)</label>
+              <input
+                type="number"
+                id="inzicht"
+                name="inzicht"
+                min="1"
+                max="10"
+                placeholder="1"
+                required
+              />
+            </li>
+          </ul>
+        </fieldset>
 
-          <fieldset class="fieldForm">
+        <fieldset class="fieldForm">
           <legend>Web App From Scratch</legend>
-          <input type="text" disabled value="Web App From Scratch" id="vaknaam" name="vaknaam" required>
-              <ul>
-                <li>
-                  <label for="docent">Van wie heb je les gehad?:</label>
-                  <select id="docent" name="docent" required>
-                    <option disabled selected value> -- Selecteer een docent -- </option>
-                    <option value="Koop & Joost">Koop & Joost</option>
-                    <option value="Sanne & Vasilis">Sanne & Vasilis</option>
-                    <option value="Robert & Peter">Robert & Peter</option>
-                    <option value="Declan & Justus">Declan & Justus</option>
-                  </select>
-                </li>
-                <li>
-                  <label for="week">In welke week heb je dit vak gehad?</label>
-                  <select id="week" name="week" required>
-                    <option disabled selected value> -- Selecteer een week -- </option>
-                    <option value="Week 1-4">Week 1-4</option>
-                    <option value="Week 5-8">Week 5-8</option>
-                    <option value="Week 9-12">Week 9-12</option>
-                    <option value="Week 13-16">Week 13-16</option>
-                  </select>
-                </li>
-                <li>
-                  <label for="leerstof">Hoe vond je de leerstof? (0-10)</label>
-                  <input type="number" id="leerstof" name="leerstof" min="1" max="10" placeholder="1" required>
-                </li>
-                <li>
-                  <label for="uitleg">Hoe vond je de uitleg? (0-10)</label>
-                  <input type="number" id="uitleg" name="uitleg" min="1" max="10" placeholder="1" required>
-                </li>
-                <li>
-                  <label for="inzicht">Hoe goed snap je het? (0-10)</label>
-                  <input type="number" id="inzicht" name="inzicht" min="1" max="10" placeholder="1" required>
-                </li>
-              </ul>
-            </fieldset>
+          <input
+            type="text"
+            disabled
+            value="Web App From Scratch"
+            id="vaknaam"
+            name="vaknaam"
+            required
+          />
+          <ul>
+            <li>
+              <label for="docent">Van wie heb je les gehad?:</label>
+              <select id="docent" name="docent" required>
+                <option disabled selected value>
+                  -- Selecteer een docent --
+                </option>
+                <option value="Koop & Joost">Koop & Joost</option>
+                <option value="Sanne & Vasilis">Sanne & Vasilis</option>
+                <option value="Robert & Peter">Robert & Peter</option>
+                <option value="Declan & Justus">Declan & Justus</option>
+              </select>
+            </li>
+            <li>
+              <label for="week">In welke week heb je dit vak gehad?</label>
+              <select id="week" name="week" required>
+                <option disabled selected value>
+                  -- Selecteer een week --
+                </option>
+                <option value="Week 1-4">Week 1-4</option>
+                <option value="Week 5-8">Week 5-8</option>
+                <option value="Week 9-12">Week 9-12</option>
+                <option value="Week 13-16">Week 13-16</option>
+              </select>
+            </li>
+            <li>
+              <label for="leerstof">Hoe vond je de leerstof? (0-10)</label>
+              <input
+                type="number"
+                id="leerstof"
+                name="leerstof"
+                min="1"
+                max="10"
+                placeholder="1"
+                required
+              />
+            </li>
+            <li>
+              <label for="uitleg">Hoe vond je de uitleg? (0-10)</label>
+              <input
+                type="number"
+                id="uitleg"
+                name="uitleg"
+                min="1"
+                max="10"
+                placeholder="1"
+                required
+              />
+            </li>
+            <li>
+              <label for="inzicht">Hoe goed snap je het? (0-10)</label>
+              <input
+                type="number"
+                id="inzicht"
+                name="inzicht"
+                min="1"
+                max="10"
+                placeholder="1"
+                required
+              />
+            </li>
+          </ul>
+        </fieldset>
 
-            <fieldset class="fieldForm">
-            <legend>Progressive Web Apps</legend>
-        <input type="text" disabled value="Progressive web apps" id="vaknaam" name="vaknaam" required>
-            <ul>
-                <li>
-                  <label for="docent">Van wie heb je les gehad?:</label>
-                  <select id="docent" name="docent" required>
-                    <option disabled selected value> -- Selecteer een docent -- </option>
-                    <option value="Koop & Joost">Koop & Joost</option>
-                    <option value="Sanne & Vasilis">Sanne & Vasilis</option>
-                    <option value="Robert & Peter">Robert & Peter</option>
-                    <option value="Declan & Justus">Declan & Justus</option>
-                  </select>
-                </li>
-                <li>
-                  <label for="week">In welke week heb je dit vak gehad?</label>
-                  <select id="week" name="week" required>
-                    <option disabled selected value> -- Selecteer een week -- </option>
-                    <option value="Week 1-4">Week 1-4</option>
-                    <option value="Week 5-8">Week 5-8</option>
-                    <option value="Week 9-12">Week 9-12</option>
-                    <option value="Week 13-16">Week 13-16</option>
-                  </select>
-                </li>
-              <li>
-                <label for="leerstof">Hoe vond je de leerstof? (0-10)</label>
-                <input type="number" id="leerstof" name="leerstof" min="1" max="10" placeholder="1" required>
-              </li>
-              <li>
-                <label for="uitleg">Hoe vond je de uitleg? (0-10)</label>
-                <input type="number" id="uitleg" name="uitleg" min="1" max="10" placeholder="1" required>
-              </li>
-              <li>
-                <label for="inzicht">Hoe goed snap je het? (0-10)</label>
-                <input type="number" id="inzicht" name="inzicht" min="1" max="10" placeholder="1" required>
-              </li>
-            </ul>
-          </fieldset>
+        <fieldset class="fieldForm">
+          <legend>Progressive Web Apps</legend>
+          <input
+            type="text"
+            disabled
+            value="Progressive web apps"
+            id="vaknaam"
+            name="vaknaam"
+            required
+          />
+          <ul>
+            <li>
+              <label for="docent">Van wie heb je les gehad?:</label>
+              <select id="docent" name="docent" required>
+                <option disabled selected value>
+                  -- Selecteer een docent --
+                </option>
+                <option value="Koop & Joost">Koop & Joost</option>
+                <option value="Sanne & Vasilis">Sanne & Vasilis</option>
+                <option value="Robert & Peter">Robert & Peter</option>
+                <option value="Declan & Justus">Declan & Justus</option>
+              </select>
+            </li>
+            <li>
+              <label for="week">In welke week heb je dit vak gehad?</label>
+              <select id="week" name="week" required>
+                <option disabled selected value>
+                  -- Selecteer een week --
+                </option>
+                <option value="Week 1-4">Week 1-4</option>
+                <option value="Week 5-8">Week 5-8</option>
+                <option value="Week 9-12">Week 9-12</option>
+                <option value="Week 13-16">Week 13-16</option>
+              </select>
+            </li>
+            <li>
+              <label for="leerstof">Hoe vond je de leerstof? (0-10)</label>
+              <input
+                type="number"
+                id="leerstof"
+                name="leerstof"
+                min="1"
+                max="10"
+                placeholder="1"
+                required
+              />
+            </li>
+            <li>
+              <label for="uitleg">Hoe vond je de uitleg? (0-10)</label>
+              <input
+                type="number"
+                id="uitleg"
+                name="uitleg"
+                min="1"
+                max="10"
+                placeholder="1"
+                required
+              />
+            </li>
+            <li>
+              <label for="inzicht">Hoe goed snap je het? (0-10)</label>
+              <input
+                type="number"
+                id="inzicht"
+                name="inzicht"
+                min="1"
+                max="10"
+                placeholder="1"
+                required
+              />
+            </li>
+          </ul>
+        </fieldset>
 
-          <fieldset class="fieldForm">
+        <fieldset class="fieldForm">
           <legend>Browser Technologies</legend>
-          <input type="text" disabled value="Browser Technologies" id="vaknaam" name="vaknaam" required>
-              <ul>
-                <li>
-                  <label for="docent">Van wie heb je les gehad?:</label>
-                  <select id="docent" name="docent" required>
-                    <option disabled selected value> -- Selecteer een docent -- </option>
-                    <option value="Koop & Joost">Koop & Joost</option>
-                    <option value="Sanne & Vasilis">Sanne & Vasilis</option>
-                    <option value="Robert & Peter">Robert & Peter</option>
-                    <option value="Declan & Justus">Declan & Justus</option>
-                  </select>
-                </li>
-                <li>
-                  <label for="week">In welke week heb je dit vak gehad?</label>
-                  <select id="week" name="week" required>
-                    <option disabled selected value> -- Selecteer een week -- </option>
-                    <option value="Week 1-4">Week 1-4</option>
-                    <option value="Week 5-8">Week 5-8</option>
-                    <option value="Week 9-12">Week 9-12</option>
-                    <option value="Week 13-16">Week 13-16</option>
-                  </select>
-                </li>
-                <li>
-                  <label for="leerstof">Hoe vond je de leerstof? (0-10)</label>
-                  <input type="number" id="leerstof" name="leerstof" min="1" max="10" placeholder="1" required>
-                </li>
-                <li>
-                  <label for="uitleg">Hoe vond je de uitleg? (0-10)</label>
-                  <input type="number" id="uitleg" name="uitleg" min="1" max="10" placeholder="1" required>
-                </li>
-                <li>
-                  <label for="inzicht">Hoe goed snap je het? (0-10)</label>
-                  <input type="number" id="inzicht" name="inzicht" min="1" max="10" placeholder="1" required>
-                </li>
-              </ul>
-            </fieldset>
-        </form>
-      </div>
-      <p id="validatortekst"></p>
-      <input type="submit" form="formulier">
-    </section>
-    {{!-- {{eerder_opgeslagen_data}} --}}
-  </main>
-  <footer>
+          <input
+            type="text"
+            disabled
+            value="Browser Technologies"
+            id="vaknaam"
+            name="vaknaam"
+            required
+          />
+          <ul>
+            <li>
+              <label for="docent">Van wie heb je les gehad?:</label>
+              <select id="docent" name="docent" required>
+                <option disabled selected value>
+                  -- Selecteer een docent --
+                </option>
+                <option value="Koop & Joost">Koop & Joost</option>
+                <option value="Sanne & Vasilis">Sanne & Vasilis</option>
+                <option value="Robert & Peter">Robert & Peter</option>
+                <option value="Declan & Justus">Declan & Justus</option>
+              </select>
+            </li>
+            <li>
+              <label for="week">In welke week heb je dit vak gehad?</label>
+              <select id="week" name="week" required>
+                <option disabled selected value>
+                  -- Selecteer een week --
+                </option>
+                <option value="Week 1-4">Week 1-4</option>
+                <option value="Week 5-8">Week 5-8</option>
+                <option value="Week 9-12">Week 9-12</option>
+                <option value="Week 13-16">Week 13-16</option>
+              </select>
+            </li>
+            <li>
+              <label for="leerstof">Hoe vond je de leerstof? (0-10)</label>
+              <input
+                type="number"
+                id="leerstof"
+                name="leerstof"
+                min="1"
+                max="10"
+                placeholder="1"
+                required
+              />
+            </li>
+            <li>
+              <label for="uitleg">Hoe vond je de uitleg? (0-10)</label>
+              <input
+                type="number"
+                id="uitleg"
+                name="uitleg"
+                min="1"
+                max="10"
+                placeholder="1"
+                required
+              />
+            </li>
+            <li>
+              <label for="inzicht">Hoe goed snap je het? (0-10)</label>
+              <input
+                type="number"
+                id="inzicht"
+                name="inzicht"
+                min="1"
+                max="10"
+                placeholder="1"
+                required
+              />
+            </li>
+          </ul>
+        </fieldset>
+      </form>
+    </div>
+    <p id="validatortekst"></p>
+    <input type="submit" form="formulier" />
+  </section>
+  {{!-- {{eerder_opgeslagen_data}} --}}
+</main>
+<footer>
+  <div>
+    <div></div>
+    <div></div>
     <div>
       <div></div>
       <div></div>
-      <div>
-        <div></div>
-        <div></div>
-      </div>
     </div>
-  </footer>
+  </div>
+</footer>

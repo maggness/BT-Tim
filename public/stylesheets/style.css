@@ -1,34 +1,35 @@
 /* Hulpje: https://jdan.github.io/98.css/ */
 
-  footer > div > div:first-of-type {
-    background-color: #c0c0c0;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
-    border: none;
-    font-family: Pixelated MS Sans Serif, monospace, sans-serif;
-    max-width: 5.6em;
-    width: 50%;
-    height: 85%;
-    margin: 0.2em 0 0 0.2em;
-    color: black;
-    text-align: right;
-  }
+footer > div > div:first-of-type {
+  background-color: #c0c0c0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
+    inset 2px 2px #dfdfdf;
+  border: none;
+  font-family: Pixelated MS Sans Serif, monospace, sans-serif;
+  max-width: 5.6em;
+  width: 50%;
+  height: 85%;
+  margin: 0.2em 0 0 0.2em;
+  color: black;
+  text-align: right;
+}
 
-  footer > div > div:nth-of-type(2) {
-    border-top: 1px solid #000;
-    border-left: 1px solid #000;
-    box-shadow: inset 1px 1px grey;
-    background-image: url(../images/scrollbar-background.svg);
-    position: absolute;
-    bottom: 0.2em;
-    left: 6.3em;
-    width: 100%;
-    max-width: 7em;
-    height: 76%;
-    text-align: center;
-  }
+footer > div > div:nth-of-type(2) {
+  border-top: 1px solid #000;
+  border-left: 1px solid #000;
+  box-shadow: inset 1px 1px grey;
+  background-image: url(../images/scrollbar-background.svg);
+  position: absolute;
+  bottom: 0.2em;
+  left: 6.3em;
+  width: 100%;
+  max-width: 7em;
+  height: 76%;
+  text-align: center;
+}
 
 @font-face {
   -webkit-font-smoothing: none;
@@ -62,7 +63,8 @@ h1 {
 
 section {
   background: #c0c0c0;
-  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
+    inset 2px 2px #dfdfdf;
   border: none;
   max-width: 40em;
   margin: 2.5em auto;
@@ -149,16 +151,19 @@ input {
   border: none;
 }
 
-.validator input:invalid, .validator select:invalid {
+.validator input:invalid,
+.validator select:invalid {
   background-color: red;
   color: white;
 }
 
-.validator input:invalid::placeholder, .validator select:invalid::placeholder {
+.validator input:invalid::placeholder,
+.validator select:invalid::placeholder {
   color: white;
 }
 
-.validator input:valid, .validator select:valid {
+.validator input:valid,
+.validator select:valid {
   border: none;
 }
 
@@ -167,7 +172,8 @@ input[type="submit"] {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
+    inset 2px 2px #dfdfdf;
   border: none;
   padding: 0.5em 1.2em;
   bottom: 0.5%;
@@ -178,8 +184,8 @@ input[type="submit"] {
 @supports (background-position: top 2px right 2px) {
   select {
     background-color: #fff;
-    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf,
-      inset 2px 2px #0a0a0a;
+    box-shadow: inset -1px -1px #fff, inset 1px 1px grey,
+      inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
     padding: 0.3em;
     appearance: none;
     -webkit-appearance: none;
@@ -210,7 +216,8 @@ select {
   padding-right: 1.5em;
 }
 
-select, textarea {
+select,
+textarea {
   background-color: white;
 }
 
@@ -240,7 +247,8 @@ footer > div > div:first-of-type {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey, inset 2px 2px #dfdfdf;
+  box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px grey,
+    inset 2px 2px #dfdfdf;
   border: none;
   font-family: Pixelated MS Sans Serif, monospace, sans-serif;
   max-width: 5.2em;
@@ -426,9 +434,8 @@ table {
 h2 span {
   color: darkred;
 }
-#e
-tr {
-  padding: .4em 1em;
+#e tr {
+  padding: 0.4em 1em;
 }
 
 tbody tr:first-of-type {
@@ -440,13 +447,13 @@ tr:nth-child(odd) {
 }
 
 th {
-  padding: .4em 1em;
+  padding: 0.4em 1em;
   border-bottom: gray 1px solid;
   border-left: 1px solid gray;
 }
 
 td {
-  padding: .4em 1em;
+  padding: 0.4em 1em;
   border-bottom: gray 1px solid;
   border-left: 1px solid gray;
 }
@@ -465,7 +472,7 @@ noscript p {
 
 @media screen and (max-width: 380px) {
   body {
-    font-size: .7em;
+    font-size: 0.7em;
   }
 
   footer > div > div:first-of-type:after {
@@ -474,12 +481,12 @@ noscript p {
     position: absolute;
     left: 2.3em;
     font-weight: 900;
-    font-size: .9em;
-  } 
+    font-size: 0.9em;
+  }
 }
 
 @media screen and (max-width: 500px) {
   table {
-    font-size: .65em;
+    font-size: 0.65em;
   }
 }
