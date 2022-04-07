@@ -78,7 +78,7 @@ if (typeof(Storage) !== "undefined") {
 
 ## Testen
 
-Ik heb mijn app getest in de nieuwe chrome, firefox & chrome op de One Plus 9 telefoon. Ook heb ik gestest op safari van de iPod touch met IOS 3.
+Ik heb mijn app getest in op de nieuwste chrome, firefox & chrome op de One Plus 9 telefoon. Ook heb ik gestest op safari van de iPod touch met IOS 3.
 
 Bij Chrome is net veel op te merken, maar bij firefox & IOS wel. Voor deze heb je een extra element nodig om de default styling te overschijven, bijvoorbeeld zo:
 ```css
@@ -100,6 +100,9 @@ Bij de IPod touch ben ik een paar dingen tegen gekomen die niet werken:
 
 - Verbeterde form validator
 - Beter onthouden waar je bent gebleven
+- 98 Desktop meer interactief maken
+- Meer dan 1 Enquête op kunnen slaan
+- UI verbeteringen 
 
 ## Licence
 
@@ -110,3 +113,7 @@ Dit project is voorzien van een MIT licence. Zie de pagina LICENCE voor meer inf
 Lessen & leraren
 
 W3 Schools
+
+https://webscraping.pro/save-input-value-on-page-refresh-using-sessionstorage/
+
+https://stackoverflow.com/questions/23261301/required-attribute-not-work-in-safari-browser
