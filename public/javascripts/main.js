@@ -5,6 +5,7 @@ if (window.location.href.indexOf("/resultaten") > -1) {
   form.noValidate = true;
   form.addEventListener('submit', function (event) { // listen for form submitting
     if (!event.target.checkValidity()) {
+        form.classList.add('validator')
         event.preventDefault(); // dismiss the default functionality
         document.getElementById('validatortekst').innerText = "Je heb nog niet alles ingevuld of je hebt een te hoog nummer ingevoerd, check je antwoorden en probeer het opnieuw."
     }
@@ -34,7 +35,6 @@ if (typeof(Storage) !== "undefined") {
   } else {
   console.log('localStorage is not supported');
 }
-
 
 // var boxes = document.querySelectorAll('.fieldForm');
 

@@ -149,6 +149,19 @@ input {
   border: none;
 }
 
+.validator input:invalid, .validator select:invalid {
+  background-color: red;
+  color: white;
+}
+
+.validator input:invalid::placeholder, .validator select:invalid::placeholder {
+  color: white;
+}
+
+.validator input:valid, .validator select:valid {
+  border: none;
+}
+
 input[type="submit"] {
   background: #c0c0c0;
   -webkit-appearance: none;
