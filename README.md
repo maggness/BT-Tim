@@ -24,10 +24,10 @@ _Ik wil een enquête kunnen invullen over de minor Web Development, met verschil
   * [Wat is Progressive Enhancement?](#wat-is-progressive-enhancement)
   * [Functional, Reliable, Usable & Pleasurable](#functional-reliable-usable--pleasurable)
   * [Schetsen](#schetsen)
+  * [Testen](#testen)
   * [Future features](#future-features)
   * [Licence](#licence)
   * [Resources](#resources)
-
 
 ## Functies
 
@@ -117,3 +117,5 @@ W3 Schools
 https://webscraping.pro/save-input-value-on-page-refresh-using-sessionstorage/
 
 https://stackoverflow.com/questions/23261301/required-attribute-not-work-in-safari-browser
+
+https://developer.mozilla.org/en-US/
