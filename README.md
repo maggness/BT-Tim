@@ -18,7 +18,8 @@ Resultaten pagina
 _Ik wil een enquête kunnen invullen over de minor Web Development, met verschillende antwoordmogelijkheden. Als ik de enquête niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven._
 
 ## Table of contents
-- [Browser Technologies @cmda-minor-web 98-99](#browser-technologies--cmda-minor-web-98-99)
+- [Browser Technologies @cmda-minor-web 98-99](#browser-technologies-cmda-minor-web-98-99)
+  * [Installatie](#installatie)
   * [User story](#user-story)
   * [Functies](#functies)
   * [Wat is Progressive Enhancement?](#wat-is-progressive-enhancement)
