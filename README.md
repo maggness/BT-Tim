@@ -8,8 +8,6 @@ _Ik wil een enquête kunnen invullen over de minor Web Development, met verschil
 
 Met deze applicatie kan je een enquete invullen voor de minor web. Je vult eerst je naam en studenten nummer in, dit wordt ook opgeslagen in local storage (als dit gesupport is). Je komt na het opsturen bij de resultaten pagina waar je je ingevulde data kan zien.
 
-## Install the project
-
 
 ## Future features
 
