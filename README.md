@@ -29,6 +29,14 @@ _Ik wil een enquête kunnen invullen over de minor Web Development, met verschil
   * [Licence](#licence)
   * [Resources](#resources)
 
+## Installatie
+
+In je console plak deze code: `git clone gh repo clone maggness/BT-Tim` of open het met github desktop.
+
+CD naar de juiste project folder
+
+Type npm install in de console
+
 ## Functies
 
 Met deze applicatie kan je een enquete invullen voor de minor web. Je vult eerst je naam en studenten nummer in, dit wordt ook opgeslagen in local storage (als dit gesupport is). Je komt na het opsturen bij de resultaten pagina waar je je ingevulde data kan zien.
@@ -119,3 +127,5 @@ https://webscraping.pro/save-input-value-on-page-refresh-using-sessionstorage/
 https://stackoverflow.com/questions/23261301/required-attribute-not-work-in-safari-browser
 
 https://developer.mozilla.org/en-US/
+
+https://caniuse.com/
