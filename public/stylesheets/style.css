@@ -162,6 +162,26 @@ input[type="submit"] {
   margin: 2% 0;
 }
 
+@supports (background-position: top 2px right 2px) {
+  select {
+    background-color: #fff;
+    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf,
+      inset 2px 2px #0a0a0a;
+    padding: 0.3em;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url(../images/button-down.svg);
+    background-position: top 2px right 2px;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    border: none;
+    font-family: Pixelated MS Sans Serif, monospace, sans-serif;
+    max-width: 15em;
+    padding-right: 1.5em;
+  }
+}
+
 select {
   background-color: #fff;
   box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf,
@@ -170,9 +190,6 @@ select {
   appearance: none;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url(../images/button-down.svg);
-  background-position: top 2px right 2px;
-  background-repeat: no-repeat;
   border-radius: 0;
   border: none;
   font-family: Pixelated MS Sans Serif, monospace, sans-serif;
@@ -427,6 +444,10 @@ td {
 
 .fieldClosed ul {
   display: none;
+}
+
+noscript p {
+  text-align: center;
 }
 
 @media screen and (max-width: 380px) {

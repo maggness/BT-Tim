@@ -1,5 +1,5 @@
 
-if (window.location.href.indexOf("/resultate") > -1) {
+if (window.location.href.indexOf("/resultaten") > -1) {
 } else {
 var form = document.getElementById('formulier'); // form has to have ID: <form id="formulier">
 form.noValidate = true;
@@ -10,27 +10,30 @@ form.addEventListener('submit', function (event) { // listen for form submitting
   }
 }, false);
 
+if (window.sessionStorage != 'undefined' ) {
+  // input to track
+  var fieldnaam = document.getElementById("formulier");
 
-// input to track
-var fieldnaam = document.getElementById("formulier");
-
-if (sessionStorage.getItem("autosavefieldnaam")) {
+  if (sessionStorage.getItem("autosavefieldnaam")) {
+      // Restore a content of the input
+      fieldnaam.naamstudent.value = sessionStorage.getItem("autosavefieldnaam");
+  } if (sessionStorage.getItem("autosavefieldnummer")) {
     // Restore a content of the input
-    fieldnaam.naamstudent.value = sessionStorage.getItem("autosavefieldnaam");
-} if (sessionStorage.getItem("autosavefieldnummer")) {
-  // Restore a content of the input
-  fieldnaam.studentnummer.value = sessionStorage.getItem("autosavefieldnummer");
+    fieldnaam.studentnummer.value = sessionStorage.getItem("autosavefieldnummer");
+  }
+
+  // Listen for changes in the input field
+  fieldnaam.addEventListener("change", function () {
+    // save value into sessionStorage object 
+    sessionStorage.setItem("autosavefieldnaam", fieldnaam.naamstudent.value);
+    sessionStorage.setItem("autosavefieldnummer", fieldnaam.studentnummer.value);
+  });
+
+  console.log("Naam: "+sessionStorage.getItem("autosavefieldnaam"))
+  console.log("Nummer: "+sessionStorage.getItem("autosavefieldnummer"))
+} else {
+  document.body.style.background = "yellow"
 }
-
-// Listen for changes in the input field
-fieldnaam.addEventListener("change", function () {
-  // save value into sessionStorage object 
-  sessionStorage.setItem("autosavefieldnaam", fieldnaam.naamstudent.value);
-  sessionStorage.setItem("autosavefieldnummer", fieldnaam.studentnummer.value);
-});
-
-console.log("Naam: "+sessionStorage.getItem("autosavefieldnaam"))
-console.log("Nummer: "+sessionStorage.getItem("autosavefieldnummer"))
 
 
 // var boxes = document.querySelectorAll('.fieldForm');
