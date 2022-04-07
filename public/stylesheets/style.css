@@ -421,6 +421,13 @@ td {
   border-left: 1px solid gray;
 }
 
+.fieldClosed {
+  height: 0;
+}
+
+.fieldClosed ul {
+  display: none;
+}
 
 @media screen and (max-width: 380px) {
   body {
