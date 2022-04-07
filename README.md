@@ -9,6 +9,7 @@
 
 ## Future features
 
+- Verbeterde form validator
 
 ## Licence
 
