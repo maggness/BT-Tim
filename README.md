@@ -17,6 +17,18 @@ Resultaten pagina
 
 _Ik wil een enquête kunnen invullen over de minor Web Development, met verschillende antwoordmogelijkheden. Als ik de enquête niet afkrijg, wil ik later weer verder gaan met waar ik ben gebleven._
 
+## Table of contents
+- [Browser Technologies @cmda-minor-web 98-99](#browser-technologies--cmda-minor-web-98-99)
+  * [User story](#user-story)
+  * [Functies](#functies)
+  * [Wat is Progressive Enhancement?](#wat-is-progressive-enhancement)
+  * [Functional, Reliable, Usable & Pleasurable](#functional-reliable-usable--pleasurable)
+  * [Schetsen](#schetsen)
+  * [Future features](#future-features)
+  * [Licence](#licence)
+  * [Resources](#resources)
+
+
 ## Functies
 
 Met deze applicatie kan je een enquete invullen voor de minor web. Je vult eerst je naam en studenten nummer in, dit wordt ook opgeslagen in local storage (als dit gesupport is). Je komt na het opsturen bij de resultaten pagina waar je je ingevulde data kan zien.
