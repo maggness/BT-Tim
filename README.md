@@ -7,10 +7,10 @@ Opdracht 2: https://maggness.github.io/BT-Tim/opdracht2-BT-main
 ### Enquête app minor web 98-99:
 
 Home pagina
-![front-page](https://user-images.githubusercontent.com/30145681/162274222-259edaee-e7c3-4e40-96a5-a38f584434de.png)
+![Home pagina](https://user-images.githubusercontent.com/30145681/162280630-57dacb63-2322-459f-82cc-eb58910e6b8c.png)
 
 Resultaten pagina
-![resultaten](https://user-images.githubusercontent.com/30145681/162274300-3434031e-f92f-4d9e-8fb4-de38a8f5604b.png)
+![Resultaten pagina](https://user-images.githubusercontent.com/30145681/162280696-5c1dee03-423b-41c4-8d39-2e3783e6afe6.png)
 
 
 ## User story
