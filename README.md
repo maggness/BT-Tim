@@ -8,11 +8,11 @@ _Ik wil een enquête kunnen invullen over de minor Web Development, met verschil
 
 Met deze applicatie kan je een enquete invullen voor de minor web. Je vult eerst je naam en studenten nummer in, dit wordt ook opgeslagen in local storage (als dit gesupport is). Je komt na het opsturen bij de resultaten pagina waar je je ingevulde data kan zien.
 
-## functional, Reliable, Usable & Pleasurable
+## Functional, Reliable, Usable & Pleasurable
 
 De functional/reliable is mijn HTML, je ziet als de css/js uit staat een sterke html basis. Hierdoor kan je nog steeds de enquête invullen, verzenden en bekijken. Als de browser het ondersteund wordt er required gebruikt om het formulier te valideren. De data wordt opgeslagen in Voorhees.json om dit weer op te kunnen halen.
 
-Usable is de css, ik heb de styling van windows 98 als inspiratie genomen. Het formulier krijgt een duidelijke layout die opgedeelt is in 4 delen. Het overzicht staat in een ouderwetse tabel. 
+Usable is de CSS, ik heb de styling van windows 98 als inspiratie genomen. Het formulier krijgt een duidelijke layout die opgedeelt is in 4 delen. Het overzicht staat in een ouderwetse tabel. 
 
 Voor pleasurable heb ik de footer toegevoegd met alleen div’s om de semantiek van de website als deze geen css heeft toch kloppend te maken. Ook wordt localstorage gebruikt om je naam en nummer op te slaan zodat deze onthouden worden als je weg gaat van het formulier.
 
