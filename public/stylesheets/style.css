@@ -297,7 +297,7 @@ footer > div > div:nth-of-type(2) {
 }
 
 footer > div > div:nth-of-type(2):before {
-  content: "Minor Web...";
+  content: "Minor W...";
   bottom: 0.2em;
   position: absolute;
   left: 0.6em;
